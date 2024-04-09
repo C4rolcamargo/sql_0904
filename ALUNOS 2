@@ -1,0 +1,6 @@
+SELECT AVG (Idade) FROM `Alunos` WHERE SEXO = 'MASC' AND PrimeiroNome LIKE '%B%';
+SELECT SUM(Idade) FROM `Alunos` WHERE PrimeiroNome LIKE '%S%';
+SELECT AVG (Idade) FROM `Alunos` WHERE SEXO = 'FEM'AND PrimeiroNome LIKE 'I%';
+SELECT AVG (Idade) FROM `Alunos` WHERE  SEXO = 'MASC' AND PrimeiroNome LIKE 'G%';
+SELECT SUM(Idade) FROM `Alunos` WHERE SEXO = 'FEM' AND PrimeiroNome LIKE '%A%';
+SELECT SUM(Idade) FROM `Alunos` WHERE SEXO = 'MASC' AND PrimeiroNome LIKE '%F%';
