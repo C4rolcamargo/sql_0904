@@ -1,0 +1,6 @@
+SELECT AVG (Idade) AS média_idade FROM `Alunos` WHERE 1;
+SELECT SUM(Idade) AS média_idade FROM `Alunos` WHERE 1;
+SELECT AVG (Idade) FROM `Alunos` WHERE SEXO = 'FEM';
+SELECT AVG (Idade) FROM `Alunos` WHERE SEXO = 'MASC';
+SELECT SUM(Idade) FROM `Alunos` WHERE SEXO = 'FEM';
+SELECT SUM(Idade) FROM `Alunos` WHERE SEXO = 'MASC';
